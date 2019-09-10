@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todays_Cart</fullName>
+    <columns>NAME</columns>
+    <columns>Shipping_Address__c</columns>
+    <columns>Billing_Address__c</columns>
+    <columns>Cart_Id__c</columns>
+    <columns>Cart_Status__c</columns>
+    <columns>Coupon__c</columns>
+    <columns>Coupon_Applied__c</columns>
+    <columns>Is_Active__c</columns>
+    <columns>Total_Discount__c</columns>
+    <columns>Total_Amount__c</columns>
+    <columns>User__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Todays Cart</label>
+</ListView>
